@@ -1,0 +1,42 @@
+body {
+	margin: 48px 0 0 0;
+	padding: 0;
+}
+
+nav {
+	background: #ba55d3;
+	height: 26px;
+	left: 0;
+	margin: 0;
+	padding: 4px 4px 0 4px;
+	position: absolute;
+	right: 0;
+	text-align: left;
+	top: 0;
+}
+
+nav h1 {
+	display: inline-block;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul, nav li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	list-style-type: none;
+	margin-left: 16px;
+}
+
+nav a {
+	color: white;
+}
+
+nav input[type=submit], nav span { position: absolute; }
+nav span { right: 56px; }
+nav input[type=submit] { right: 0; }
+nav span { padding-right: 4px; }

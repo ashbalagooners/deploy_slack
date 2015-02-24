@@ -1,0 +1,11 @@
+body { text-align: center; }
+
+header, section, footer {
+	margin: 0 auto;
+	padding: 0 24px;
+	width: 600px;
+}
+
+section { text-align: left; }
+
+input[type=text] { width: 400px; }
